@@ -12,6 +12,7 @@ public class Multiplication extends Operation {
         this.addition = this.additionFactoryMethod.operationFabrication();
     }
 
+    // Multiplication is implemented as repeated addition. It's an operation focused on integers.
     public float operate(float numberA, float numberB) {
 
         float result = 0;

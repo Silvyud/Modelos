@@ -15,6 +15,9 @@ public class OperationsTest {
         System.out.print("Ingrese el segundo número: ");
         float num2 = scn.nextFloat();
 
+        // Se ejecuta el test correspondiente a la operación seleccionada por el usuario. Se le da un test
+        // específico a cada operación para que se pueda probar cada una de forma independiente (util en caso
+        // de algún error).
         switch (operacion) {
             case 1:
                 AdditionTest sumTest = new AdditionTest();
